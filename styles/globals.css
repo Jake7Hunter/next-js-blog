@@ -1,7 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap');
+
 body{
-  font-family: sans-serif;
+  font-family: 'Oxygen', sans-serif;
+  margin: 0;
 }
 
 .header{
   font-size: 10em;
+  color: #262626;
+}
+
+.title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  height: 100vh;
+  background-color: #262626;
+  margin: 0;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+a{
+  width: 5em;
+  height: 5em;
+  margin: 5em;
+  text-decoration: none;
+  text-align: center;
+  border: 5px solid #262626;
+  padding: 3em;
+  color: white;
+  background-color: #262626;
+  
+}
+
+p{
+  margin-bottom: 10em;
 }
